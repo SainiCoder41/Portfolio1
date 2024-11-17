@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="navbar">
+    
+        <nav class="nav1">
+            <label for="toggler"  id="hamburger1">&#9776;</label>
+           <input type="checkbox" id="toggler">
+            <div class="menu">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>    
+
+        </nav>
+      
+    </header>
+    <main>
+        <h1 class="wlc">Welcome To My Portfolio</h1>
+        <div class="container">
+            <div class="image">
+                <img src="./image/about.jpg" alt="" class="img">
+            </div>
+            <div class="content" id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Saini Coder, a passionate web developer with experience in creating interactive and visually appealing websites. I love coding and always strive to improve my skills.</p>
+            </div>
+        </div>
+        <div class="super">
+            <!-- First Card -->
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-front" id="skills">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="card-back">
+                        <div class="skill-container">
+                            <div class="skill">
+                                    <div class="skill-list">
+                                        <h3>HTML</h3>
+                                            <div class="skill_bar-html"></div>
+                                    </div>
+                                    <div class="skill-list">
+                                        <h3>CSS</h3>
+                                            <div class="skill_bar-css"></div>
+                                    </div>
+                                    <div class="skill-list">
+                                        <h3>JavaScript</h3>
+                                            <div class="skill_bar-js"></div>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="card-container">
+                <div class="card " id="projects" >
+                    <div class="card-front">
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="card-back">
+                        <ul>
+                            <li>E-Commerce Website</li>
+                            <li>Blog Website</li>
+                            <li>Wheather App</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-front" id="contact">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="card-back">
+                        <ul>
+                            <li>Email ID: saini@gmail.com</li>
+                            <li>Phone : 1231131313</li>
+                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        
+    </main>
+    <footer class="foot">
+        <h2>Contact Me</h2>
+        <form action="">
+                <label for="name">Name :</label>
+                <input type="text" id="name">
+                <label for="email">Email :</label>
+                <input type="email" id="email">
+                <label for="msg">Message :</label>
+                <textarea name="" id="msg"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+
+        <div class="foot1">
+            <p> Copyright&copy; 2024 sainiCoder | All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
